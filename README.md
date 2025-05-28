@@ -52,7 +52,10 @@ sudo nano /etc/ansible/hosts
 Ctrl+S, Ctrl+X
 ansible-inventory --list -y
 sudo ansible all -m ping
-project 8: Exercise Project Solution: Step 1: Open GIT bash Step 2: Create a directory with the following steps mkdir maventest1 cd maventest1 Step 3: Create project
+project 8: Exercise Project Solution: Step 1: Open GIT bash Step 2: Create a directory with the following steps
+mkdir maventest1
+cd maventest1 
+Step 3: Create project
 
 mvn archetype:generate -DgroupId=com.yourname -DartifactId=repo_name-DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
